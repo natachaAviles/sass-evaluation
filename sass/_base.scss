@@ -1,0 +1,41 @@
+.topic{
+	margin-top:7vh;
+	.row {
+		margin-top:2vh;
+	}
+}
+.columnanoticias{
+	border:1px solid black;
+}
+.news {
+	h5{
+		@include divisor;
+		color:$darkgray;
+		font-weight:bolder;
+		font-size:1,1rem;
+		margin-bottom:3vh;
+	}
+	h6{
+		color:$focuscolor;
+		font-size:0.9rem;
+		font-weight:bold;
+	}
+	p{
+		font-size:0.8rem;
+		text-align:justify;
+		color:$lightgray;
+	}
+	.subtitle{
+		font-size:0.9rem;
+		font-weight:bold;
+		color:$darkgray;
+	}
+}
+.staricons{
+	.material-icons{
+		font-size:0.8em;
+	}
+	span{
+		color:$focuscolor;
+	}
+}
