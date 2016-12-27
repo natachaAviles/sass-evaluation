@@ -6405,7 +6405,7 @@ nav {
   color: #EA4748; }
 
 footer {
-  border-bottom: 2px solid #EA4748; }
+  border-bottom: 3px solid #EA4748; }
   footer h5 {
     border-bottom: 1px solid #EA4748;
     color: #696969;
@@ -6427,7 +6427,7 @@ footer {
   footer .btn, footer .btn-large {
     background-color: #EA4748;
     position: absolute;
-    margin-top: 14vh; }
+    margin-top: 13.5vh; }
     footer .btn:hover, footer .btn-large:hover {
       background-color: #EA4748; }
 

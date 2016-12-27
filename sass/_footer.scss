@@ -1,5 +1,5 @@
 footer{
-	border-bottom:2px solid $focuscolor;
+	border-bottom:3px solid $focuscolor;
 
 	h5{
 		@include titlestyle;
@@ -16,7 +16,7 @@ footer{
 	.btn{
 		@include etiqueta;
 		position:absolute;
-		margin-top:14vh;
+		margin-top:13.5vh;
 		&:hover{
 			background-color:$focuscolor;
 		}
