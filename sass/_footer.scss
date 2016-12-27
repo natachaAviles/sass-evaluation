@@ -1,0 +1,24 @@
+footer{
+	border-bottom:2px solid $focuscolor;
+
+	h5{
+		@include titlestyle;
+	}
+	h6{
+		@include redtext;
+	}
+	.subtitle{
+		@include darkgraytext;
+	}
+	p{
+		@include paragraphstyle;
+	}
+	.btn{
+		@include etiqueta;
+		position:absolute;
+		margin-top:14vh;
+		&:hover{
+			background-color:$focuscolor;
+		}
+	}
+}

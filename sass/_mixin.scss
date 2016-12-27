@@ -10,3 +10,28 @@
 	font-size:1rem;
 	margin-bottom:3vh;
 }
+@mixin titlestyle{
+	@include divisor;
+	color:$darkgray;
+	font-weight:bolder;
+	font-size:1,1rem;
+	margin-bottom:3vh;
+}
+@mixin redtext{
+	color:$focuscolor;
+	font-size:0.8rem;
+	font-weight:bold;
+}
+@mixin paragraphstyle{
+	font-size:0.8rem;
+	text-align:justify;
+	color:$lightgray;
+}
+@mixin darkgraytext{
+	font-size:0.9rem;
+	font-weight:bold;
+	color:$darkgray;
+}
+@mixin etiqueta{
+	background-color:$focuscolor;
+}
