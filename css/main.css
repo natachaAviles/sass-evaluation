@@ -6404,6 +6404,24 @@ nav {
 .staricons span {
   color: #EA4748; }
 
+.stayconected .facebooksquare {
+  background-color: #3B5998;
+  padding: 1.3rem;
+  text-align: center; }
+.stayconected .twittersquare {
+  padding: 1.3rem;
+  background-color: #5DA9DD;
+  text-align: center;
+  border-left: 2px solid #FFFFFF;
+  border-right: 2px solid #FFFFFF; }
+.stayconected .rssquare {
+  padding: 1.3rem;
+  background-color: #FFBE21;
+  text-align: center; }
+.stayconected .fa {
+  color: #FFFFFF;
+  font-size: 2rem; }
+
 footer {
   border-bottom: 3px solid #EA4748; }
   footer h5 {

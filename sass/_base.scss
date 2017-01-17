@@ -31,3 +31,27 @@
 		color:$focuscolor;
 	}
 }
+.stayconected{
+
+	.facebooksquare{
+		background-color:$facebookcolor;
+		padding:1.3rem;
+		text-align:center;
+	}
+	.twittersquare{
+		padding:1.3rem;
+		background-color:$twittercolor;
+		text-align:center;
+		border-left:2px solid $whiteborder;
+		border-right:2px solid $whiteborder;
+	}
+	.rssquare{
+		padding:1.3rem;
+		background-color:$rrsscolor;
+		text-align:center;
+	}
+	.fa{
+		color:$rrssicon;
+		font-size:2rem;
+	}
+}
